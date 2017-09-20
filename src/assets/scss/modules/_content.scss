@@ -1,0 +1,94 @@
+body {
+	background: rgba($tertiary, 0.1);
+	//background-image: linear-gradient(45deg, (rgba($tertiary, 0.1)) 25%, transparent 25%, transparent 50%, (rgba($tertiary, 0.1)) 50%, (rgba($tertiary, 0.1)) 75%, transparent 75%, $white);
+	//background-size: rem-calc(8) rem-calc(8);
+}
+
+
+.main-wrap {
+  @include xy-grid-container;
+  @include xy-grid();
+  background: $white;
+  margin-top: 1rem;
+
+  @include breakpoint(medium) {
+    margin-top: 3rem;
+  }
+
+  &.sidebar-left {
+
+    // Place the sidebar below main content on small screens ...
+      @include breakpoint(small) {
+        .main-content { order: 1; }
+        .sidebar { order: 2; }
+      }
+
+    // ... and to the left on medium-up screens, when using the sidebar-left template
+      @include breakpoint(medium) {
+        .main-content { order: 2; }
+        .sidebar { order: 1; }
+      }
+  }
+
+  // Full width template
+  &.full-width {
+    .main-content {
+      @include xy-cell(12);
+    }
+  }
+
+  .main-content {
+
+    // Default template
+    @include breakpoint(small) {
+      @include xy-cell(12);
+    }
+
+    @include breakpoint(medium) {
+      @include xy-cell(8);
+    }
+
+  }
+
+  .sidebar {
+
+    @include breakpoint(small) {
+      @include xy-cell(12);
+    }
+
+    @include breakpoint(medium) {
+      @include xy-cell(4);
+      margin-top: 1rem;
+    }
+
+  }
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+	
+	&.primary {
+		color: $primary;
+	}
+	
+	&.secondary {
+		color: $secondary;
+	}
+}
+
+
+
+input[type=submit] {
+	color: $white;
+	
+	background: $primary;
+	border: none;
+	padding: rem-calc(8) rem-calc(16);
+	
+	cursor: pointer;
+	transition: all 150ms ease-in-out;
+	
+	&:hover {
+		background: darken($primary, 5%);
+	}
+}
