@@ -23,7 +23,7 @@ get_header(); ?>
 			<?php
 				
 				$args = array (
-					'child_of' => 18,
+					'child_of' => 17,
 				    'sort_column' => 'menu_order'		
 				);
 				
