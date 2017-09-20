@@ -1,4 +1,4 @@
-# FoundationPress
+# FoodByRaill, a theme built using FoundationPress
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/olefredrik/foundationpress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![GitHub version](https://badge.fury.io/gh/olefredrik%2Ffoundationpress.svg)](https://github.com/olefredrik/FoundationPress/releases)
 
@@ -23,8 +23,8 @@ If you have not worked with a Sass-based workflow before, I would recommend read
 ### 1. Clone the repository and install with npm
 ```bash
 $ cd my-wordpress-folder/wp-content/themes/
-$ git clone https://github.com/olefredrik/FoundationPress.git
-$ cd FoundationPress
+$ git clone https://github.com/nyssawalsh/foodbyrail.git
+$ cd FoodByRail
 $ npm install
 ```
 
