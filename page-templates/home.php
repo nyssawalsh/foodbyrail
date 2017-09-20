@@ -15,7 +15,7 @@ get_header(); ?>
 			<?php the_content(); ?>
 			
 			<div class="button-container">
-				<button class="button" href="contact.php">Contact</button>
+				<button class="button" href="<?php echo get_stylesheet_directory_uri(); ?>/contact">Contact</button>
 			</div>
 			
 		</div>
@@ -26,7 +26,7 @@ get_header(); ?>
 	
 	<div class="home-callouts">
 		
-		<a href="front.php">
+		<a href="<?php echo get_stylesheet_directory_uri(); ?>/how-it-works">
 			<h2>How it works</h2>
 			<div class="callout-image">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/how-it-works.jpeg">
@@ -36,7 +36,7 @@ get_header(); ?>
 			
 			<p>Transform your supply chain, and give your customers a competitive edge with the green solutions from Food By Rail Logistics. </p>
 		</a>
-		<a href="front.php">
+		<a href="<?php echo get_stylesheet_directory_uri(); ?>/who-we-are">
 			<h2>Who we are</h2>
 			<div class="callout-image">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/who-we-are.jpeg">
@@ -46,7 +46,7 @@ get_header(); ?>
 			
 			<p>Lorem ipsum solor sit amet, amencit redraq tur.</p>
 		</a>
-		<a href="front.php">
+		<a href="<?php echo get_stylesheet_directory_uri(); ?>/contact">
 			<h2>Contact us</h2>
 			<div class="callout-image">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/contact-us.jpeg">
