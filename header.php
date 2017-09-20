@@ -29,7 +29,7 @@
 
 	<header class="site-header" role="banner">
 		
-		<a class="site-header-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/logo.png" alt="Food By Rail"></a>
+		<a class="site-header-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/logo.png" alt="Food By Rail"></a>
 		
 		<div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
 			<div class="title-bar-left">
