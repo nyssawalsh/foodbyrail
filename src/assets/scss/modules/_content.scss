@@ -12,10 +12,6 @@ body {
   background: $white;
   margin-top: 1rem;
 
-  @include breakpoint(medium) {
-    margin-top: 3rem;
-  }
-
   &.sidebar-left {
 
     // Place the sidebar below main content on small screens ...
@@ -63,6 +59,14 @@ body {
     }
 
   }
+}
+
+.featured-hero {
+	height: 12.5rem !important;
+	
+	@include breakpoint(small only) {
+		display: none;
+	}
 }
 
 h1, h2, h3, h4, h5 {
