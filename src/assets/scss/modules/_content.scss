@@ -35,6 +35,10 @@ body {
   }
 
   .main-content {
+	  
+	  time {
+		  font-style: italic;
+	  }
 
     // Default template
     @include breakpoint(small) {
@@ -95,5 +99,14 @@ input[type=submit] {
 	
 	&:hover {
 		background: darken($primary, 5%);
+	}
+}
+
+
+.news-content {
+	.featured-image {
+		background-position: center;
+		background-size: cover;
+		height: rem-calc(100);
 	}
 }

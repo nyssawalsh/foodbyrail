@@ -1,6 +1,6 @@
-body.home,
-body.page-template-alt-home {
+body.home {
 	
+	background: $white;
 	
 	.site-header-logo {
 		display: none;
@@ -10,46 +10,29 @@ body.page-template-alt-home {
 .home-hero-image {
 	background-image: url(../img/home.jpg);
 	background-size: cover;
-	height: 85vh;
+	height: calc(100vh - 46px);
+	
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	
 	img {
 		margin: 0 auto;
-		max-width: rem-calc(400);
-		padding-top: rem-calc(32);
+		max-width: rem-calc(480);
+		padding-bottom: 1rem;
 		
 		display: block;
 	}
 }
 
 
-.home-container {
-	@include xy-grid-container(60rem);
-	
-	background: $white;
-	border: 1px solid $light-gray;
-	margin-top: rem-calc(60);
-}
-
-.home-hero {
-    margin: 0 auto;
-    max-width: rem-calc(1000);
-    padding: rem-calc(16);
-    
-    img {
-	    height: 100%;
-	    margin: 0 auto;
-	    width: 65%;
-	    
-	    display: block;
-    }
-    
-    
-}
-
 .home-hero-content {
 	margin: 0 auto;
 	max-width: rem-calc(700);
 	
+	.callout {
+		background-color: rgba($white, 0.8);
+	}
 	
 	p {
 	    font-size: rem-calc(16);
@@ -70,7 +53,11 @@ body.page-template-alt-home {
     }
 }
 
-
+.home-container {
+	@include xy-grid-container(60rem);
+	
+	margin-top: rem-calc(60);
+}
 
 .home-callouts {
 	
@@ -97,7 +84,7 @@ body.page-template-alt-home {
 			    content: '';
 			    
 			    border-bottom: 1px solid $dark-gray;
-			    width: 25%;
+			    width: 20%;
 			    
 			    position: absolute;
 			    bottom: 50%;
@@ -181,28 +168,6 @@ body.page-template-alt-home {
     }
 }
 
-
-
-// ALT HOME
-
-body.page-template-alt-home {
-	background: none;
-	
-	.home-container {
-		border: none;
-	}
-	
-	.home-callouts {
-		a {
-			h2 {
-				&:before, 
-				&:after {
-					width: 20%;
-				}
-			}
-		}
-	}
-}
 
 // Page header
 .front-hero {

@@ -23,7 +23,7 @@ get_header(); ?>
 			<?php
 				
 				$args = array (
-					'child_of' => 17,
+					'child_of' => 17, //18 for dev
 				    'sort_column' => 'menu_order'		
 				);
 				
@@ -32,16 +32,31 @@ get_header(); ?>
 				
 			?>
 			
-			<article>
-				<?php if( get_field('image') ): ?>
+			
+			
+			<?php if( get_field('image') ): ?>
+			
+				<article>
 					<div class="team-member-photo" style="background-image: url(<?php the_field('image'); ?>)"></div>
-				<?php endif; ?>
+					
+					<h3 class="text-center primary"><?php the_field('name'); ?></h3>
+					<h5 class="text-center"><?php the_field('title'); ?></h5>
+					
+					<p class="team-member-description"><?php the_field('description'); ?></p>
+				</article>
+			<?php else: ?>	
+			
+				<article class="third">
+					
+					<h3 class="text-center primary"><?php the_field('name'); ?></h3>
+					<h5 class="text-center"><?php the_field('title'); ?></h5>
+					
+					<p class="team-member-description"><?php the_field('description'); ?></p>
+				</article>
 				
-				<h3 class="text-center primary"><?php the_field('name'); ?></h3>
-				<h5 class="text-center"><?php the_field('title'); ?></h5>
-				
-				<p class="team-member-description"><?php the_field('description'); ?></p>
-			</article>
+			<?php endif; ?>
+			
+			
 			
 			<?php endforeach;
 			wp_reset_postdata();?>

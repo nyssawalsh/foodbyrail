@@ -27,8 +27,5 @@
 	color: $dark-gray;
 	text-align: right;
 	
-	padding: 0 rem-calc(8px);
-	width: 100%;
-	
-	display: block;
+	padding: 0 (rem-calc(8px));
 }
