@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="home-hero-image">
 	
 	<div class="home-hero-content">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/home-logo.png" alt="Food By Rail">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/img/home-logo.png" alt="Food By Rail">
 		
 		<?php do_action( 'foundationpress_before_content' ); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -39,7 +39,7 @@ get_header(); ?>
 		<a href="/how-it-works">
 			<h2>Fast, Fresh, Safe</h2>
 			<div class="callout-image">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/callout1.jpeg">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/img/callout1.jpg">
 				<figcaption></figcaption>
 			</div>
 			
@@ -49,7 +49,7 @@ get_header(); ?>
 		<a href="/who-we-are">
 			<h2>Expertise</h2>
 			<div class="callout-image">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/callout2.jpeg">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/img/callout2.jpg">
 				<figcaption></figcaption>
 			</div>
 			
@@ -58,9 +58,9 @@ get_header(); ?>
 </p>
 		</a>
 		<a href="/contact">
-			<h2>Ship with us</h2>
+			<h2>Contact us</h2>
 			<div class="callout-image">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/callout3.jpeg">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/img/callout3.jpg">
 				<figcaption></figcaption>
 			</div>
 			

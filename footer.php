@@ -16,8 +16,8 @@
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
-				<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/img/footer-motif.jpg"></a>
-				<span class="footer-copyright">&copy; 2017 JAMES STREET ASSOCIATES | All rights reserved</span>
+				<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/img/footer-logo.jpg"></a>
+				<span class="footer-copyright">&copy; 2017 FOOD BY RAIL | All rights reserved</span>
 			</footer>
 		</div>
 

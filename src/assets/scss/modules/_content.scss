@@ -66,7 +66,7 @@ body {
 }
 
 .featured-hero {
-	height: 12.5rem !important;
+	background-position: top !important;
 	
 	@include breakpoint(small only) {
 		display: none;
