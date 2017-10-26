@@ -17,7 +17,8 @@ get_header(); ?>
 			<?php the_content(); ?>
 			
 			<div class="button-container">
-				<a class="button" href="/contact">Contact</a>
+				<p>If you'd like to know more <span></span></p>
+				<a href="/contact"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/img/home-button.png" alt="Contact"></a>
 			</div>
 			
 		</div>
