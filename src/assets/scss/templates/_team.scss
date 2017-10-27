@@ -28,19 +28,17 @@
 		    border-bottom: none;
 		    
 		    h3, h5 {
-			    text-align: left;
+			    text-align: center;
+			    text-transform: none;
 		    }
 		    
 		     h3 {
 			     color: $primary-color;
 			     font-size: rem-calc(22);
-			     text-align: center;
-			     text-transform: none;
 			 }
 		     
 		     h5 {
 			     font-size: rem-calc(16);
-			     text-align: center;
 		     }
 		     
 		     @include breakpoint(small only) {

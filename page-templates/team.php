@@ -27,8 +27,7 @@ get_header(); ?>
 				
 				<article>
 					<h3>KEVIN McKINNEY</h3>
-					<h5>EXECUTIVE VICE PRESIDENT</h5>
-					<h5>CHIEF OPERATING OFFICER</h5>
+					<h5>EXECUTIVE VICE PRESIDENT & CHIEF OPERATING OFFICER</h5>
 					<p>Kevin has over four decades of experience in transportation and logistics. In addition to creating several companies, including a short line railroad, he has provided transportation consulting services to a number of clients in the public and private sectors. He developed refrigerated boxcar services for ExpressTrak LLC, a company designed to ship produce on Amtrak passenger trains, and later founded and served as CEO of Green Zephyr, Inc. Most recently he was director of refrigerated and regional marketing for a national transportation company.</p>
 				</article>
 				
@@ -54,13 +53,15 @@ get_header(); ?>
 					
 					<article>
 						<h3>DAN CODDINGTON</h3>
-						<h5>VICE PRESIDENT OF SALES, PROTEIN AND MIDWEST REGION</h5>
+						<h5>VICE PRESIDENT OF SALES</h5>
+						<h5>PROTEIN and MIDWEST REGION</h5>
 						<p>Dan served the railroad and air express transportation industries, most recently with refrigerated boxcar services.</p>
 					</article>
 					
 					<article>
 						<h3>HARRY L. BALLANCE</h3>
-						<h5>VICE PRESIDENT OF WESTERN REGIONAL OPERATIONS</h5>
+						<h5>VICE PRESIDENT</h5>
+						<h5>WESTERN REGIONAL OPERATIONS</h5>
 						<p>Harry’s rail industry career has been focused on operations and intermodal facilities for both the Union Pacific Railroad and Southern Pacific.</p>
 					</article>
 				</section>
